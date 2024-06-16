@@ -3,9 +3,11 @@
 ## Сборка и запуск:
 
 Собрать:
+
 docker build -t mtu .
 
-Запустить
+Запустить:
+
 docker run --rm mtu --address ___address___
 
 ## Пояснения
