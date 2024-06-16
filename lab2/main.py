@@ -16,7 +16,7 @@ def find_min_mtu_in_path(dest, min, max):
             print('Unknown ping error', flush=True)
             return 0
 
-        print(f"Current MTU size {mid})", flush=True)
+        print(f"Current MTU size {mid}", flush=True)
         if ping_res.is_alive:
             left = mid + 1
         else:
